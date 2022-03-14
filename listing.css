@@ -1,0 +1,199 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+#header{
+    height:60px;
+    width: 100%;
+    border:5px solid darkred;
+    background-color:lightblue;
+}
+#search{
+    height:400px;
+    width: 100%;
+    border:3px solid rgb(215, 236, 216);
+    background-color: rgba(158, 252, 247, 0.89);
+}
+#quicksearch{
+    height:600px;
+    width: 100%;
+    border:4px double teal;
+    background-color:peachpuff;
+}
+#footer{
+    height:40px;
+    width: 100%;
+    border:3px solid black;
+    background-color:darkgray
+
+}
+#icon{
+    
+    float: left;
+    margin-left:1%;
+    margin-top:-1%
+}
+#social{
+    float: right; 
+    
+}
+.slogo{
+    height:50px;
+    width:50px;
+}
+#search{
+    height:400px;
+    width:100%;
+    background-image: url('https://i.ibb.co/RYQgQsz/food3.jpg');
+    background-repeat:no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 400px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color:rgba(240 229 229/ 60%);
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top:2%;
+    position:absolute;
+    animation:revolve 20s infinite
+}
+
+#logo>span{
+    margin-left: 28%;
+    margin-top:16%;
+    position:absolute;
+    font-size: 80px;
+}
+
+#heading{
+    margin-left: 25%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 23%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align:center;
+}
+
+.restSelect{
+    width:50%;
+}
+/*QuickSearch CSS*/
+#quickSearch{
+    width:80%;
+    margin-left:10%;
+    margin-top: 2%;
+}
+
+#quickHeading{
+     font-size:30px;
+     color:#f01616;
+     display:block;
+     font-weight:bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 2%;
+}
+#quickHeading:hover{
+    font-size:40px;
+    color:#8462e2;
+}
+
+#quickSubHeading{
+    font-size:20px;
+    color:rgb(117, 8, 4);
+    display:block;
+    line-height: 3;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    width:30%;
+    border-radius: 50%;
+    box-shadow: 10px 20px 40px gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    animation: dance 10s infinite; 
+}
+
+
+
+.tileContainer:hover{
+    /* 
+    transform:scale(1.1)
+    transform:skewX(-20deg)
+    transform:rotate(0deg)
+     transform:translate(100px,100px)*/
+    transform:scale(1.1)
+}
+
+.tileComponent1{
+  width:50%;
+  height:180px;
+  float: left;
+}
+
+.tileComponent1 > img{
+    position: center;
+    width:90%;
+    height:120px;
+  
+}
+.tileComponent2{
+    width:45%;
+    margin-left: 5%;
+    margin-top: 14%;
+    float: left;
+}
+
+.componentHeading > a{
+    color:#031049;
+    font-size: 25px;
+}
+
+.componentSubHeading{
+    color:rgb(14, 92, 236);
+    font-size: 15px;
+}
+
+/*footer CSS*/
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#e28b62
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
+}
